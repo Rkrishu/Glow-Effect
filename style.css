@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+/* using positioning */
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* using flex
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+
+
+    /* using grid
+    display: grid;
+    place-items: center;*/
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+
+.container img:hover{
+    transition: 3s ease-in-out;
+    box-shadow: 0 0 10px yellow,
+                0 0 20px yellow,
+                0 0 60px yellow,
+                0 0 150px yellow;
+    cursor: pointer;
+}
